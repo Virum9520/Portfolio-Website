@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "/Users/virum/Desktop/Developer/space-web/src/assets/astronaut.gif";
+import profileImg from "../../assets/astronaut.gif";
 
 const AboutMe = () => {
   return (
