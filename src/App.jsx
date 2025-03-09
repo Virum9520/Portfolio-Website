@@ -3,19 +3,14 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero.jsx";
 import HeroCard from "./components/HeroCard/HeroCard.jsx";
 import BgVideo from "./assets/earth-bg.mp4";
-import wave from "./assets/wave Gif.gif";
 import Project1 from "./components/Project1/Project1.jsx"
 import Project2 from "./components/Project2/Project2.jsx";
 import Project3 from "./components/Project3/Project3.jsx";
 import AboutMe from "./components/Aboutme/Aboutme.jsx";
 import Skills from "./components/Skills/Skills.jsx";
-import Footer from "./components/Footer/Footer.jsx";
 import Footer5 from "./components/Footer/Footer5.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-AOS.init();
-
 
 
 const App = () => {
@@ -45,7 +40,6 @@ const App = () => {
       <Project1 />
       <Project2 />
       <Project3 />
-      {/* <Footer /> */}
       <Footer5 />
     </div>
   );

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import MountainPng from "../../assets/moon-surface-hd.png";
-import ErrorGif from "../../assets/error-loading.gif"; // Add your error GIF path
 
 const Hero = () => {
   const [isLoading, setIsLoading] = useState(true); // Initially show the loading error GIF

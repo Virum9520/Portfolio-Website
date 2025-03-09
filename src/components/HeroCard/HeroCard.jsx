@@ -42,11 +42,11 @@ const ServiceData = [
 
 const HeroCard = () => {
   return (
-    <section className="bg-primary">
+    <section id="experience" className="bg-primary">
       <div className="container">
         <div className="min-h-[400px]">
           <div className="text-center py-10">
-            <h2 id="experience" className="text-4xl text-left font-semibold text-white">Experience</h2>
+            <h2 className="text-4xl text-left font-semibold text-white">Experience</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 relative z-10">
             {ServiceData.map((data, index) => (

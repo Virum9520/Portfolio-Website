@@ -1,10 +1,10 @@
 import React from "react";
-import Video from "../../assets/project2.mp4"; // Replace with your actual video path
+import Video from "../../assets/project2.mp4"; 
 
 const Project2 = () => {
   return (
     <>
-      <section className="bg-primary text-white py-20">
+      <section id="projects" className="bg-primary text-white py-20">
         <div className="container">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
             <div className="space-y-3 xl:pr-36 p-4 border-l-2 border-b-2 border-l-sky-800 border-b-sky-800">

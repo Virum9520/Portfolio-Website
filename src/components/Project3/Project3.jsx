@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 const Project3 = () => {
   return (
     <>
-      <section className="bg-primary text-white pb-12">
+      <section id="projects" className="bg-primary text-white pb-12">
         <div className="container">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
             {/* Video Section */}

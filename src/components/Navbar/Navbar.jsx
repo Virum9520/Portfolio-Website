@@ -64,16 +64,12 @@ const Navbar = () => {
                     smooth={true}
                     duration={500}
                   >
-                    Writings
+                    Contact
                   </Link>
                 </li>
               </ul>
             </div>
-            <div>
-              <button className=" text-white border-2 border-white px-3 py-1 rounded-md">
-                Login
-              </button>
-            </div>
+            
           </div>
         </div>
       </nav>
